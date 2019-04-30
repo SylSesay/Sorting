@@ -19,9 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmn-Xf-Ffo">
-                                <rect key="frame" x="4" y="240" width="373" height="222"/>
+                                <rect key="frame" x="22" y="350" width="329" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
                                 <state key="normal" title="Sorting Types">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -29,27 +29,258 @@
                                     <segue destination="gd5-JC-X0e" kind="show" id="GR4-4n-mEH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Og-4c-RnV">
-                                <rect key="frame" x="99" y="410" width="183" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06f-PZ-ghp">
+                                <rect key="frame" x="22" y="173" width="331" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
+                                <state key="normal" title="Stack">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0Y5-YK-LPh" kind="show" identifier="Stack" id="6rY-VB-MbZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a Data Structure In Python" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zo-1S-Urx">
+                                <rect key="frame" x="16" y="76" width="343" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9L3-58-iRp">
+                                <rect key="frame" x="22" y="258" width="329" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
+                                <state key="normal" title="Queue">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uGp-wA-fdH" kind="show" id="Tw7-lI-JV2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5d-GY-ihl">
+                                <rect key="frame" x="22" y="446" width="329" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
+                                <state key="normal" title="Linked List">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="H8b-cO-geI" kind="show" id="bqM-Uf-cst"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.78292053937911987" green="0.79370963573455811" blue="0.94568759202957153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fd3-n4-acC"/>
+                    <navigationItem key="navigationItem" title="Home" id="fd3-n4-acC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="-658"/>
+            <point key="canvasLocation" x="2181.5999999999999" y="-845.1274362818591"/>
+        </scene>
+        <!--List Types-->
+        <scene sceneID="heE-K0-WSw">
+            <objects>
+                <viewController title="List Types" id="H8b-cO-geI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bb8-4O-M25">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V98-tu-z77">
+                                <rect key="frame" x="32" y="274" width="311" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
+                                <state key="normal" title="Singly-linked">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uht-4i-Ita" kind="show" id="zvl-cb-NJk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67C-s7-ZgI">
+                                <rect key="frame" x="32" y="448" width="311" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="40"/>
+                                <state key="normal" title="Doubly-linked">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QJp-Bb-tBg" kind="show" id="I0M-vh-6hR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a linked list type" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAb-nU-wRT">
+                                <rect key="frame" x="16" y="97" width="343" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.30153585399999999" green="0.45429689740000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biD-KP-gC9">
+                                <rect key="frame" x="125" y="385" width="98" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76341611030000001" green="1" blue="0.99473336680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="MYV-5T-aiq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8Q-tZ-p0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4717.6000000000004" y="-1599.8500749625189"/>
+        </scene>
+        <!--Singly-Linked List-->
+        <scene sceneID="HL8-pc-Fe2">
+            <objects>
+                <viewController title="Singly-Linked List" id="Uht-4i-Ita" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ODx-ar-gcS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aOB-Eh-Fpr">
+                                <rect key="frame" x="16" y="80" width="343" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A singly-linked list is a data structure for implementing a list ADT, where each node has data and a pointer to the next node. The list structure typically has pointers to the list's first node and last node. A singly-linked list's first node is called the head, and the last node the tail. A singly-linked list is a type of positional list: A list where elements contain pointers to the next and/or previous elements in the list.
+
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Single LL" translatesAutoresizingMaskIntoConstraints="NO" id="gZK-hK-ImO">
+                                <rect key="frame" x="16" y="389" width="343" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92850345373153687" green="0.85871702432632446" blue="0.5960230827331543" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="OZJ-an-P3w"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ze9-oz-Yrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5752.8000000000002" y="-2024.4377811094455"/>
+        </scene>
+        <!--Doubly-Linked List-->
+        <scene sceneID="9ph-PR-O6e">
+            <objects>
+                <viewController title="Doubly-Linked List" id="QJp-Bb-tBg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5xw-wA-o4A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O1D-WW-Lcq">
+                                <rect key="frame" x="16" y="78" width="343" height="468"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">A doubly-linked list is a data structure for implementing a list ADT, where each node has data, a pointer to the next node, and a pointer to the previous node. The list structure typically points to the first node and the last node. The doubly-linked list's first node is called the head, and the last node the tail.
+
+A doubly-linked list is similar to a singly-linked list, but instead of using a single pointer to the next node in the list, each node has a pointer to the next and previous nodes. A doubly-linked list is a type of positional list: A list where elements contain pointers to the next and/or previous elements in the list.</mutableString>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRk-df-JVq">
+                                <rect key="frame" x="16" y="578" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Doubly-Linked Concept ..."/>
+                                <connections>
+                                    <segue destination="l0O-Qe-aOQ" kind="show" id="9DN-eJ-8Ks"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92850345369999998" green="0.85871702429999996" blue="0.59602308270000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="9cU-Yt-ELI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zhu-e6-5jO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5752.8000000000002" y="-1326.3868065967017"/>
+        </scene>
+        <!--DLL Image-->
+        <scene sceneID="cbr-Ee-Sva">
+            <objects>
+                <viewController title="DLL Image" id="l0O-Qe-aOQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fma-Ar-oYy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Double LL" translatesAutoresizingMaskIntoConstraints="NO" id="zBG-Rl-Hpr">
+                                <rect key="frame" x="30" y="185" width="315" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79605241404663907" blue="0.65555717872770924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="cIq-61-FTs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1s1-ke-kZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6572" y="-1326.3868065967017"/>
+        </scene>
+        <!--Queue-->
+        <scene sceneID="Zvw-nU-b69">
+            <objects>
+                <viewController title="Queue" id="uGp-wA-fdH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dwt-XT-Qm4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Queue Op" translatesAutoresizingMaskIntoConstraints="NO" id="U6K-v9-naq">
+                                <rect key="frame" x="16" y="370" width="343" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qnm-st-FN5">
+                                <rect key="frame" x="16" y="74" width="343" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A queue is an ADT in which items are inserted at the end of the queue and removed from the front of the queue. The queue push operation inserts an item at the end of the queue. The queue pop operation removes and returns the item at the front of the queue. A queue is referred to as a first-in first-out ADT. A queue can be implemented using a linked list, an array, or a vector.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76341611030000001" green="1" blue="0.99473336680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="ykQ-VN-iJF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfN-qW-h4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4717.6000000000004" y="-818.14092953523243"/>
+        </scene>
+        <!--Stack-->
+        <scene sceneID="rby-Ez-T3n">
+            <objects>
+                <viewController title="Stack" id="0Y5-YK-LPh" userLabel="Stack" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gGM-4N-wWX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="89Y-Zg-xGp">
+                                <rect key="frame" x="16" y="84" width="343" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A stack is an ADT in which items are only inserted on or removed from the top of a stack. The stack push operation inserts an item on the top of the stack. The stack pop operation removes and returns the item at the top of the stack.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stack Op" translatesAutoresizingMaskIntoConstraints="NO" id="yFa-WK-dBb">
+                                <rect key="frame" x="28" y="327" width="331" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76341611030000001" green="1" blue="0.99473336680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="TRe-fO-yke"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYk-cb-jCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4717.6000000000004" y="89.505247376311857"/>
         </scene>
         <!--Pick a Sorting Type-->
         <scene sceneID="bHq-Rw-13L">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ncr-QN-scH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="gd5-JC-X0e" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aY3-0b-l1S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -110,6 +341,7 @@
                                 <rect key="frame" x="57" y="129" width="246" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Radix Sort">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -123,6 +355,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Pick a Sorting Type" id="qvS-ek-Zmk"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncr-QN-scH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1777" y="73"/>
         </scene>
@@ -183,7 +416,7 @@
                                 <rect key="frame" x="16" y="94" width="343" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Selection sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly selects the proper next value to move from the unsorted part to the end of the sorted part.   The selection sort algorithm runtime is: O(N^2)</mutableString>
+                                <string key="text">Selection sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly selects the proper next value to move from the unsorted part to the end of the sorted part.   The selection sort algorithm runtime is: O(N^2)</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -223,7 +456,7 @@
                                 <rect key="frame" x="16" y="85" width="343" height="243"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Insertion sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly inserts the next value from the unsorted part into the correct location in the sorted part.  Insertion sort's typical runtime is: O(N^2).</mutableString>
+                                <string key="text">Insertion sort is a sorting algorithm that treats the input as two parts, a sorted part and an unsorted part, and repeatedly inserts the next value from the unsorted part into the correct location in the sorted part.  Insertion sort's typical runtime is: O(N^2).</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -278,7 +511,7 @@
                                 <rect key="frame" x="16" y="83" width="343" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Merge sort is a sorting algorithm that divides a list into two halves, recursively sorts each half, and then merges the sorted halves to produce a sorted list. The recursive partitioning continues until a list of 1 element is reached, as list of 1 element is already sorted.   The merge sort algorithm's runtime is: O(N log N).</mutableString>
+                                <string key="text">Merge sort is a sorting algorithm that divides a list into two halves, recursively sorts each half, and then merges the sorted halves to produce a sorted list. The recursive partitioning continues until a list of 1 element is reached, as list of 1 element is already sorted.   The merge sort algorithm's runtime is: O(N log N).</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -303,7 +536,7 @@
                                 <rect key="frame" x="16" y="72" width="343" height="326.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Quicksort is a sorting algorithm that repeatedly partitions the input into low and high parts (each part unsorted), and then recursively sorts each of those parts. To partition the input, quicksort chooses a pivot to divide the data into low and high parts. The pivot can be any value within the array being sorted, commonly the value of the middle array element.   The quicksort algorithm's runtime is: O(N log^2 N)</mutableString>
+                                <string key="text">Quicksort is a sorting algorithm that repeatedly partitions the input into low and high parts (each part unsorted), and then recursively sorts each of those parts. To partition the input, quicksort chooses a pivot to divide the data into low and high parts. The pivot can be any value within the array being sorted, commonly the value of the middle array element.   The quicksort algorithm's runtime is: O(N log^2 N)</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -467,22 +700,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JmA-WA-Obt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="-1399"/>
+            <point key="canvasLocation" x="2182" y="-1626"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Double LL" width="674" height="451"/>
         <image name="IMG_1405" width="1146" height="788"/>
+        <image name="Queue Op" width="1060" height="701"/>
+        <image name="Single LL" width="663" height="504"/>
+        <image name="Stack Op" width="1060" height="794"/>
         <image name="back" width="16" height="16"/>
-        <image name="insertionalg" width="782" height="1106"/>
+        <image name="insertionalg" width="391" height="553"/>
         <image name="insertionpic" width="1668" height="1225"/>
-        <image name="mergeAlg" width="1210" height="974"/>
-        <image name="mergeAlg1" width="1236" height="1264"/>
+        <image name="mergeAlg" width="605" height="487"/>
+        <image name="mergeAlg1" width="618" height="632"/>
         <image name="mergepic" width="1668" height="1205"/>
-        <image name="quickalg1" width="1016" height="1320"/>
-        <image name="quickalg2" width="1016" height="1102"/>
+        <image name="quickalg1" width="508" height="660"/>
+        <image name="quickalg2" width="508" height="551"/>
         <image name="quickpic" width="1668" height="1253"/>
         <image name="radixpic" width="2224" height="1668"/>
-        <image name="selectionAlg" width="790" height="1224"/>
+        <image name="selectionAlg" width="395" height="612"/>
         <image name="selectionpic" width="1668" height="1238"/>
     </resources>
 </document>
